@@ -6,18 +6,16 @@ _Lograr crear una aplicacion web conectada a una base de datos. Esto ponerlo en 
 
 1. Debemos clonar nuestro repositorio ejecutando el comando:
 
-        git clone https://github.com/GaboRex/CertiReact-PrimerParcial.git
+        git clone https://github.com/GaboRex/Tarea-DevOps-Dockerisacion-de-Aplicacion-Web-con-conexion-a-BD.git
 
 2. Con nuestro proyecto clonado abriremos nuestra terminal y entraremos a la ruta donde guardamos el proyecto.        
 
-        cd /ruta/EventFlow
+        cd /ruta_del_proyecto
 
-3. Una vez en nuestro directorio del proyecto procederemos a ejecutar el comando para instalar todas las dependencias necesarias:
+3. Para finalizar ejecutaremos el siguiente comando para poder visualizar e interactuar con la pagina web y ejecutar tambien los contenedores:
 
-        npm install
-4. Para finalizar ejecutaremos el siguiente comando para poder visualizar e interactuar con la pagina web:
-        
-        npm run dev
+        docker-compose up
+
 
 ## Autor:✒️
 
