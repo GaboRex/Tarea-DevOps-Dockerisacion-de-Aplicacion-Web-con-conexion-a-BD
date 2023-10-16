@@ -1,0 +1,7 @@
+USE AutoFormulario;
+
+CREATE TABLE IF NOT EXISTS autos (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  marca VARCHAR(255),
+  modelo VARCHAR(255)
+);
